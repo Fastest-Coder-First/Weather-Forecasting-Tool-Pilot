@@ -1,4 +1,6 @@
 # Weather Forecasting Tool
+![Python Version](https://img.shields.io/badge/python-3.9-blue.svg) ![CLI](https://img.shields.io/badge/CLI-yes-brightgreen.svg) ![Documentation](https://img.shields.io/badge/documentation-yes-brightgreen.svg) ![Code Quality](https://img.shields.io/badge/code%20quality-A-brightgreen.svg) ![Code Linter](https://img.shields.io/badge/code%20linter-passing-brightgreen.svg)
+
 
 This is a simple command line tool to fetch and display the weather forecast for a given city.
 
@@ -32,6 +34,8 @@ python app.py --city London
 ```
 
 ## Output
+
+![https://i.imgur.com/Lz2LgCX.png](https://i.imgur.com/Lz2LgCX.png)
 
 ```bash
 Weather Forecast For London:
