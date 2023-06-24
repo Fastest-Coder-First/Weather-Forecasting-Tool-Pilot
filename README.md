@@ -2,6 +2,23 @@
 
 This is a simple command line tool to fetch and display the weather forecast for a given city.
 
+# Architecture Flow
+
+The Weather Forecasting Tool follows a simple architectural flow to fetch and display the weather forecast for a given city. Here's an overview of the flow:
+
+1. **Command Line Interface (CLI)**: The tool is invoked through a command line interface, where the user provides the desired city name as a command line argument.
+
+2. **API Integration**: The tool integrates with the OpenWeatherMap API to fetch weather data for the specified city. It uses the `requests` library to send a GET request to the API endpoint, passing the city name and API key as parameters.
+
+3. **Data Parsing**: The response from the API is received in JSON format. The tool parses the JSON data to extract the required weather features such as temperature, pressure, humidity, wind speed, and coordinates.
+
+4. **Displaying Weather Forecast**: The extracted weather features are displayed on the command line, providing the user with the current weather forecast for the specified city.
+
+5. **Dependencies**: The tool may have dependencies on external libraries or modules. Ensure that the necessary dependencies are installed before running the tool. Refer to the Installation section in the README for instructions on installing dependencies.
+
+This architectural flow demonstrates the simplicity and effectiveness of the Weather Forecasting Tool in providing real-time weather information to users.
+
+
 ## Usage
 
 ```bash
